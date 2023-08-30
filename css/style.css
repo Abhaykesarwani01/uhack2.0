@@ -16,7 +16,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-  color: #f8234a;
+  color: #1dfb79;
   outline: none;
   text-decoration: none;
 }
@@ -82,13 +82,13 @@ h6 {
 }
 
 .back-to-top:focus {
-  background: #e0072f;
+  background: #1dfb79;
   color: #fff;
   outline: none;
 }
 
 .back-to-top:hover {
-  background: #e0072f;
+  background: #1dfb79;
   color: #fff;
 }
 
@@ -168,7 +168,7 @@ h6 {
 }
 
 #header #logo h1 span {
-  color: #f82249;
+  color: #1dfb79;
 }
 
 #header #logo h1 a,
@@ -281,7 +281,7 @@ h6 {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #f82249;
+  background-color: #1dfb79;
   visibility: hidden;
   transition: all 0.3s ease-in-out 0s;
 }
@@ -295,10 +295,10 @@ h6 {
 
 .nav-menu li.buy-tickets a {
   color: #fff;
-  background: #f82249;
+  background: none;
   padding: 7px 22px;
-  border-radius: 50px;
-  border: 2px solid #f82249;
+  border-radius: 4px;
+  border: 2px solid #19c7fb;
   transition: all ease-in-out 0.3s;
   font-weight: 500;
   margin-left: 8px;
@@ -308,7 +308,7 @@ h6 {
 }
 
 .nav-menu li.buy-tickets a:hover {
-  background: none;
+  background: #19c7fb;
 }
 
 .nav-menu li.buy-tickets:hover a:before,
@@ -339,7 +339,7 @@ h6 {
 }
 
 .nav-menu ul li:hover > a {
-  background: #f82249;
+  background: #22bbf8;
   color: #fff;
 }
 
@@ -406,7 +406,7 @@ h6 {
 }
 
 #mobile-nav ul li a:hover {
-  color: #f82249;
+  color: #1dfb79;
 }
 
 #mobile-nav ul li li {
@@ -423,11 +423,11 @@ h6 {
 }
 
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
-  color: #f82249;
+  color: #1dfb79;
 }
 
 #mobile-nav ul .menu-item-active {
-  color: #f82249;
+  color: #1dfb79;
 }
 
 #mobile-body-overly {
@@ -512,9 +512,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-transform: uppercase;
 }
 
-#intro h1 span {
+#intro h1 {
   /*color: #22BBF8;*/
-  background: linear-gradient(to right, #9A3D72 0%, #2FA9AB 100%);
+  background: linear-gradient(to right, #fc59b6 0%, #3cd6d8 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   padding-right: 5px
@@ -576,7 +576,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro .play-btn:hover::after {
-  border-left: 15px solid #f82249;
+  border-left: 15px solid #1bf198;
   -webkit-transform: scale(20);
   transform: scale(20);
 }
@@ -607,7 +607,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   letter-spacing: 1px;
   display: inline-block;
   padding: 12px 32px;
-  border-radius: 50px;
+  border-radius: 4px;
   transition: 0.5s;
   line-height: 1;
   margin: 10px;
@@ -1847,3 +1847,19 @@ strong{
     font-size: 15px;
 }
 }
+
+
+/*----------------------------- UHACK ANIMATION  ------------------------  */
+
+#uhack_animate {
+  font-family: 'Space Mono', monospace;
+  font-size: clamp(3rem, 10vw, 10rem);
+  color: white;
+  padding: 0rem clamp(1rem, 2vw, 3rem);
+  border-radius: clamp(0.4rem, 0.75vw, 1rem);
+}
+
+/* #uhack_animate:hover {
+  background-color: white; 
+  color: black;
+} */
