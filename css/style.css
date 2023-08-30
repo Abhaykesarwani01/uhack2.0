@@ -1834,18 +1834,16 @@ strong{
 
 
 @media all and (max-width: 768px) {
-  h1 {
-    font-size: calc(1.5rem * var(--smaller));
-  }
   
   li {
-    font-size: calc(1.125rem * var(--smaller));
+    font-size: 25px;
+    padding: 10px;
   }
   
   li span {
-    font-size: calc(3.375rem * var(--smaller));
+    font-size: 55px;
   } 
   .wrapper strong{
-    font-size: 10px;
+    font-size: 15px;
 }
 }
