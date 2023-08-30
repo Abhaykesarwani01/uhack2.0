@@ -1,0 +1,15 @@
+{
+  "short_name": "HackIIITD",
+  "name": "HackIIITD",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "type": "image/png",
+      "sizes": "32x32"
+    }
+  ],
+  "start_url": "https://sidhantsarkar.github.io/hackiiitd/",
+  "background_color": "#FFFFFF",
+  "display": "standalone",
+  "theme_color": "#050B22"
+}
