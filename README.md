@@ -1,2 +1,2 @@
-# hackiiitd
-Esya'19 Hackathon.
+# UHACK 2.0
+Technovators'25 Hackathon.
