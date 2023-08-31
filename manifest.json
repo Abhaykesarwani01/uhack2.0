@@ -1,5 +1,5 @@
 {
-  "short_name": "HackIIITD",
+  "short_name": "UHACK",
   "name": "HackIIITD",
   "icons": [
     {
@@ -8,7 +8,7 @@
       "sizes": "32x32"
     }
   ],
-  "start_url": "https://sidhantsarkar.github.io/hackiiitd/",
+  "start_url": "https://abhayKesarwa.github.io/uhack2.0/",
   "background_color": "#FFFFFF",
   "display": "standalone",
   "theme_color": "#050B22"
