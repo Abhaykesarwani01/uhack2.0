@@ -372,7 +372,7 @@ h6 {
   z-index: 998;
   background: rgba(6, 12, 34, 0.9);
   left: -260px;
-  width: 260px;
+  width: 180px;
   overflow-y: auto;
   transition: 0.4s;
 }
@@ -1672,4 +1672,98 @@ strong{
   color: white;
   padding: 0rem clamp(1rem, 2vw, 3rem);
   border-radius: clamp(0.4rem, 0.75vw, 1rem);
+}
+
+
+
+
+
+/* ========================== progress ============================================= */
+
+.tab-content{
+  position: relative;
+}
+
+#progress_box{
+  position: absolute;
+  margin-top: 50px;
+  height: 76vh;
+  width: 40px;
+  left: 100px;
+}
+
+.line{
+  background-color: #c6c2c2;
+  display: flex;
+  margin-left: 10px;
+  width: 7px;
+}
+
+.circle{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: 4px solid #c6c2c2;
+}
+
+.one{
+  /* background-color: #061B38; */
+}
+.two_reaching{
+  display: block;
+  height: 80px;
+}
+
+.three_reaching{
+  display: block;
+  height: 65px;
+}
+.four_reaching{
+  display: block;
+  height: 65px;
+}
+.five_reaching{
+  display: block;
+  height: 65px;
+}
+
+@media all and (max-width: 768px) {
+  .tab-content{
+    position: relative;
+    left: 22px;
+  }
+
+  #progress_box{
+    position: absolute;
+    margin-top: 50px;
+    height: 76vh;
+    width: 40px;
+    left: -30px;
+  }
+  
+  .line{
+    margin-left: 10px;
+    width: 8px;
+  }
+  .circle{
+    height: 30px;
+  }
+  
+  .one{
+    
+  }
+  .two_reaching{
+    height: 180px;
+  }
+  
+  .three_reaching{
+    height: 130px;
+  }
+  .four_reaching{
+    height: 100px;
+  }
+  .five_reaching{
+    height: 120px;
+  }
+
 }
