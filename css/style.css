@@ -1602,27 +1602,25 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 
 
-
-
-
 @media (max-width: 400px) {
-  .container {
-    padding: 0 10px;
+  #countdown ul{
+    padding-left: 0px;
   }
-  .content h3 {
-    font-size: 14px;
+
+  li {
+    font-size: 25px;
+    padding: 10px;
   }
-  .main .number {
-    font-size: 40px;
-  }
-  .main .colon {
-    font-size: 12px;
-  }
+  
+  li span {
+    font-size: 20px;
+  } 
   .wrapper strong{
-      font-size: 5px;
+    font-size: 15px;
   }
   
 }
+
 
 li {
   display: inline-block;
@@ -1639,6 +1637,9 @@ li span {
 }
 strong{
   color: white;
+}
+#countdown ul{
+  padding-left: 0px;
 }
 
 
@@ -1658,7 +1659,7 @@ strong{
   } 
   .wrapper strong{
     font-size: 13px;
-}
+  }
 }
 
 
