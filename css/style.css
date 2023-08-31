@@ -1602,6 +1602,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 
 
+
+
+
 @media (max-width: 400px) {
   .container {
     padding: 0 10px;
@@ -1640,14 +1643,18 @@ strong{
 
 
 @media all and (max-width: 768px) {
-  
+
+  #countdown ul{
+    padding-left: 0px;
+  }
+
   li {
     font-size: 25px;
     padding: 10px;
   }
   
   li span {
-    font-size: 55px;
+    font-size: 20px;
   } 
   .wrapper strong{
     font-size: 15px;
