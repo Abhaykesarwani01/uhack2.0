@@ -5,13 +5,15 @@
 	<meta charset="utf-8">
 	<title>uhack 2.0</title>
 	<meta content="width=device-width, initial-scale=1.0" name="viewport">
-	<meta content="hackiiitd, iiitd, esya19, hackathon" name="keywords">
 	<!-- Favicons -->
 	<link href="img/favicon.png" rel="icon">
 	<link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Overpass+Mono:400,600&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=GFS+Neohellenic&family=Monoton&family=Orbitron:wght@500&display=swap" rel="stylesheet">
 	<!-- Material Icons -->
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<!-- Bootstrap CSS File -->
@@ -34,16 +36,14 @@
 </head>
 
 <body>
-	<!--==========================
-    Header
-  ============================-->
+						<!--==========================    Header  ============================-->
 	<header id="header">
 		<div class="container">
 			<div id="logo" class="pull-left">
 				<!-- Uncomment below if you prefer to use a text logo -->
 				<!-- <h1><a href="#main">C<span>o</span>nf</a></h1> -->
 				<a href="#intro" class="scrollto">
-					<img src="img/logo@2x.png" alt="" title="">
+					<img src="img/logo@2x.png" alt="uhack2.0 logo" title="">
 				</a>
 			</div>
 			<nav id="nav-menu-container">
@@ -56,9 +56,6 @@
 					</li>
 					<li><a href="#schedule">Schedule</a>
 					</li>
-					<li><a href="#venue">Venue</a>
-					</li>
-					<!-- <li><a href="#hotels">Hotels</a></li> -->
 					<li><a href="#gallery">Gallery</a>
 					</li>
 					<li><a href="#supporters">Sponsors</a>
@@ -74,22 +71,14 @@
 	</header>
 	<!-- #header -->
 
-
-
-
-
-
-
-	<!--==========================
-    Intro Section
-  ============================-->
+						<!--==========================    Intro Section  ============================-->
 	<section id="intro">
 		<canvas></canvas>
 		<div class="intro-container wow fadeIn"> <span class="esya">Technovators'25 Presents</span>
 			<!-- <h1 class="mb-4 pb-0"> -->
                 <!-- The Annual<br><span>UHACK</span>2.0</h1> -->
 			<h1 class="mb-4 pb-0" id="uhack_animate" data-value="UHACK 2.0">UHACK 2.0</h1>
-			<p class="mb-4 pb-0">23-24 August | UCER Prayagraj</p>
+			<p class="mb-4 pb-0">DD-DD September | UCER Prayagraj</p>
 			<a href="#buy-tickets" class="about-btn scrollto">Register</a>
 
 
@@ -98,10 +87,10 @@
 			<div class="wrapper">
                 <div id="countdown">
                   <ul>
-                    <li><span id="days"></span><strong>Days</strong></li>
-                    <li><span id="hours"></span><strong>Hours</strong></li>
-                    <li><span id="minutes"></span><strong>Minutes</strong></li>
-                    <li><span id="seconds"></span><strong>Seconds</strong></li>
+                    <li><span class="num" id="days"></span><strong>Days</strong></li>
+                    <li><span class="num" id="hours"></span><strong>Hours</strong></li>
+                    <li><span class="num" id="minutes"></span><strong>Minutes</strong></li>
+                    <li><span class="num" id="seconds"></span><strong>Seconds</strong></li>
                   </ul>
                 </div>
             </div>
@@ -113,24 +102,14 @@
 
 
 
-
-
-
-
-
-
-
-
 	<main id="main">
-		<!--==========================
-      About Section
-    ============================-->
+				<!--===================================    About Section    ============================-->
 		<section id="about">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-6">
 						<h2>About</h2>
-						<p>An overnight software development hackathon where participants develop an application based on the themes given a day before the hack.</p>
+						<p> Two days software development hackathon where participants develop an application based on the themes given a day before the hack.</p>
 					</div>
 					<div class="col-lg-3">
 						<h3>Where</h3>
@@ -138,14 +117,13 @@
 					</div>
 					<div class="col-lg-3">
 						<h3>When</h3>
-						<p>23-24 August 2023</p>
+						<p>DD-DD September 2023</p>
 					</div>
 				</div>
 			</div>
 		</section>
-		<!--==========================
-      Buy Ticket Section
-    ============================-->
+
+				<!--====================================   Guidelines Section    ============================-->
 		<section id="buy-tickets" class="wow fadeInUp">
 			<div class="container">
 				<div class="section-header">
@@ -188,9 +166,8 @@
         </div>
       </div> -->
 		</section>
-		<!--==========================
-      Speakers Section
-    ============================-->
+
+				<!--==========================      Judges Section    ============================-->
 		<section id="speakers" class="section-with-bg wow fadeInUp">
 			<div class="container">
 				<div class="section-header">
@@ -294,9 +271,8 @@
           </div>
         </div> --></div>
 		</section>
-		<!--==========================
-      Schedule Section
-    ============================-->
+
+				<!--==========================      Schedule Section    ============================-->
 		<section id="schedule">
 			<div class="container wow fadeInUp">
 				<div class="section-header">
@@ -519,171 +495,8 @@
 				</div>
 			</div>
 		</section>
-		<!--==========================
-      Venue Section
-    ============================-->
-		<section id="venue" class="section-with-bg wow fadeInUp">
-			<div class="container-fluid">
-				<div class="section-header">
-					<h2>Venue</h2>
-					<p>Event venue location info</p>
-				</div>
-				<div class="row no-gutters">
-					<div class="col-lg-6 venue-map">
-						<iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=IIITD%20okhla&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-					</div>
-					<div class="col-lg-6 venue-info">
-						<div class="row justify-content-center">
-							<div class="col-11 col-lg-8">
-								<h3>Indraprastha Institute of Information Technology Delhi</h3>
-								<p>Okhla Industrial Estate,Phase III
-									<br>(Near Govind Puri Metro Station)
-									<br>New Delhi, India - 110020</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- POSSIBLY CAMPUS/VENUE IMAGES -->
-			<!-- <div class="container-fluid venue-gallery-container">
-        <div class="row no-gutters">
 
-          <div class="col-lg-3 col-md-4">
-            <div class="venue-gallery">
-              <a href="img/venue-gallery/1.jpg" class="venobox" data-gall="venue-gallery">
-                <img src="img/venue-gallery/1.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="venue-gallery">
-              <a href="img/venue-gallery/2.jpg" class="venobox" data-gall="venue-gallery">
-                <img src="img/venue-gallery/2.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="venue-gallery">
-              <a href="img/venue-gallery/3.jpg" class="venobox" data-gall="venue-gallery">
-                <img src="img/venue-gallery/3.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="venue-gallery">
-              <a href="img/venue-gallery/4.jpg" class="venobox" data-gall="venue-gallery">
-                <img src="img/venue-gallery/4.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="venue-gallery">
-              <a href="img/venue-gallery/5.jpg" class="venobox" data-gall="venue-gallery">
-                <img src="img/venue-gallery/5.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="venue-gallery">
-              <a href="img/venue-gallery/6.jpg" class="venobox" data-gall="venue-gallery">
-                <img src="img/venue-gallery/6.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="venue-gallery">
-              <a href="img/venue-gallery/7.jpg" class="venobox" data-gall="venue-gallery">
-                <img src="img/venue-gallery/7.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="venue-gallery">
-              <a href="img/venue-gallery/8.jpg" class="venobox" data-gall="venue-gallery">
-                <img src="img/venue-gallery/8.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-
-        </div>
-      </div> -->
-		</section>
-		<!--==========================
-      Hotels Section
-    ============================-->
-		<!--     <section id="hotels" class="section-with-bg wow fadeInUp">
-
-      <div class="container">
-        <div class="section-header">
-          <h2>Hotels</h2>
-          <p>Her are some nearby hotels</p>
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-4 col-md-6">
-            <div class="hotel">
-              <div class="hotel-img">
-                <img src="img/hotels/1.jpg" alt="Hotel 1" class="img-fluid">
-              </div>
-              <h3><a href="#">Hotel 1</a></h3>
-              <div class="stars">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-              </div>
-              <p>0.4 Mile from the Venue</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6">
-            <div class="hotel">
-              <div class="hotel-img">
-                <img src="img/hotels/2.jpg" alt="Hotel 2" class="img-fluid">
-              </div>
-              <h3><a href="#">Hotel 2</a></h3>
-              <div class="stars">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star-half-full"></i>
-              </div>
-              <p>0.5 Mile from the Venue</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6">
-            <div class="hotel">
-              <div class="hotel-img">
-                <img src="img/hotels/3.jpg" alt="Hotel 3" class="img-fluid">
-              </div>
-              <h3><a href="#">Hotel 3</a></h3>
-              <div class="stars">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-              </div>
-              <p>0.6 Mile from the Venue</p>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section> -->
-		<!--==========================
-      Gallery Section
-    ============================-->
+				<!--==========================      Gallery Section    ============================-->
 		<section id="gallery" class="wow fadeInUp">
 			<div class="container">
 				<div class="section-header">
@@ -718,9 +531,8 @@
         <a href="img/gallery/pic (14).jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/pic (14).jpg" alt=""></a> -->
 			</div>
 		</section>
-		<!--==========================
-      Sponsors Section
-    ============================-->
+
+				<!--==========================      Sponsors Section    ============================-->
 		<section id="supporters" class="section-with-bg wow fadeInUp">
 			<div class="container">
 				<div class="section-header">
@@ -773,9 +585,9 @@
 				</div>
 			</div>
 		</section>
-		<!--==========================
-      F.A.Q Section
-    ============================-->
+
+				<!--==========================      F.A.Q Section    ============================-->
+
 		<section id="faq" class="wow fadeInUp">
 			<div class="container">
 				<div class="section-header">
@@ -830,32 +642,9 @@
 				</div>
 			</div>
 		</section>
-		<!--==========================
-      Subscribe Section
-    ============================-->
-		<!--     <section id="subscribe">
-      <div class="container wow fadeInUp">
-        <div class="section-header">
-          <h2>Newsletter</h2>
-          <p>Rerum numquam illum recusandae quia mollitia consequatur.</p>
-        </div>
 
-        <form method="POST" action="#">
-          <div class="form-row justify-content-center">
-            <div class="col-auto">
-              <input type="text" class="form-control" placeholder="Enter your Email">
-            </div>
-            <div class="col-auto">
-              <button type="submit">Subscribe</button>
-            </div>
-          </div>
-        </form>
+				<!--=============================  Contact Section  ============================-->
 
-      </div>
-    </section> -->
-		<!--==========================
-      Contact Section
-    ============================-->
 		<section id="contact" class="section-with-bg wow fadeInUp">
 			<div class="container">
 				<div class="section-header">
@@ -864,15 +653,15 @@
 				</div>
 				<div class="row">
 					<!-- Team Member 1 -->
-					<div class="col-xl-4 col-md-6 mb-4">
+					<div class="col-xl-4 countdowncol-md-6 mb-4">
 						<div class="card h-100 border-0 shadow">
-							<img src="img/event-heads/jha.png" class="card-img-top" alt="Abhimanyu">
+							<img src="img/event-heads/person.jpg" class="card-img-top" alt="Abhimanyu">
 							<div class="card-body text-center">
-								<h5 class="card-title mb-0">Abhimanyu Jha</h5>
-								<div class="card-text text-black-50">abhimanyu17126@iiitd.ac.in</div>
-								<div class="card-text text-black-50">+91 99900 38337</div>
-								<div class="card-text text-black-50"> <a href="mailto: abhimanyu17126@iiitd.ac.in<"><i class="material-icons contact-icons">email</i></a>
-									<a href="tel:+91 99900 38337"><i class="material-icons contact-icons">phone</i></a>
+								<h5 class="card-title mb-0">XYZ</h5>
+								<div class="card-text text-black-50">xyz@gmail.com</div>
+								<div class="card-text text-black-50">+91 1234567890</div>
+								<div class="card-text text-black-50"> <a href="mailto: xyz@gmail.com"><i class="material-icons contact-icons">email</i></a>
+									<a href="tel:+91 1234567890"><i class="material-icons contact-icons">phone</i></a>
 								</div>
 							</div>
 						</div>
@@ -880,13 +669,13 @@
 					<!-- Team Member 2 -->
 					<div class="col-xl-4 col-md-6 mb-4">
 						<div class="card h-100 border-0 shadow">
-							<img src="img/event-heads/amandeep.png" class="card-img-top" alt="...">
+							<img src="img/event-heads/person.jpg" class="card-img-top" alt="...">
 							<div class="card-body text-center">
-								<h5 class="card-title mb-0">Amandeep Kaur</h5>
-								<div class="card-text text-black-50">amandeep18014@iiitd.ac.in</div>
-								<div class="card-text text-black-50">+91 96342 02204</div>
-								<div class="card-text text-black-50"> <a href="mailto: amandeep18014@iiitd.ac.in"><i class="material-icons contact-icons">email</i></a>
-									<a href="tel:+91 96342 02204"><i class="material-icons contact-icons">phone</i></a>
+								<h5 class="card-title mb-0">XYZ</h5>
+								<div class="card-text text-black-50">xyz@gmail.com</div>
+								<div class="card-text text-black-50">+91 1234567890</div>
+								<div class="card-text text-black-50"> <a href="mailto: xyz@gmail.com"><i class="material-icons contact-icons">email</i></a>
+									<a href="tel:+91 1234567890"><i class="material-icons contact-icons">phone</i></a>
 								</div>
 							</div>
 						</div>
@@ -894,13 +683,13 @@
 					<!-- Team Member 3 -->
 					<div class="col-xl-4 col-md-6 mb-4">
 						<div class="card h-100 border-0 shadow">
-							<img src="img/event-heads/ria.png" class="card-img-top" alt="...">
+							<img src="img/event-heads/person.jpg" class="card-img-top" alt="...">
 							<div class="card-body text-center">
-								<h5 class="card-title mb-0">Ria Gupta</h5>
-								<div class="card-text text-black-50">ria18405@iiitd.ac.in</div>
-								<div class="card-text text-black-50">+91 98911 42167</div>
-								<div class="card-text text-black-50"> <a href="mailto: ria18405@iiitd.ac.in"><i class="material-icons contact-icons">email</i></a>
-									<a href="tel:+91 98911 42167"><i class="material-icons contact-icons">phone</i></a>
+								<h5 class="card-title mb-0">XYZ</h5>
+								<div class="card-text text-black-50">xyz@gmail.com</div>
+								<div class="card-text text-black-50">+91 1234567890</div>
+								<div class="card-text text-black-50"> <a href="mailto: xyz@gmail.com"><i class="material-icons contact-icons">email</i></a>
+									<a href="tel:+91 1234567890"><i class="material-icons contact-icons">phone</i></a>
 								</div>
 							</div>
 						</div>
@@ -910,13 +699,13 @@
 					<!-- Team Member 4 -->
 					<div class="col-xl-4 col-md-6 mb-4">
 						<div class="card h-100 border-0 shadow">
-							<img src="img/event-heads/shashwat.png" class="card-img-top" alt="...">
+							<img src="img/event-heads/person.jpg" class="card-img-top" alt="...">
 							<div class="card-body text-center">
-								<h5 class="card-title mb-0">Shashwat Aggarwal</h5>
-								<div class="card-text text-black-50">shashwat18097@iiitd.ac.in</div>
-								<div class="card-text text-black-50">+91 88600 85903</div>
-								<div class="card-text text-black-50"> <a href="mailto: shashwat18097@iiitd.ac.in"><i class="material-icons contact-icons">email</i></a>
-									<a href="tel:+91 88600 85903"><i class="material-icons contact-icons">phone</i></a>
+								<h5 class="card-title mb-0">XYZ</h5>
+								<div class="card-text text-black-50">xyz@gmail.com</div>
+								<div class="card-text text-black-50">+91 1234567890</div>
+								<div class="card-text text-black-50"> <a href="mailto: xyz@gmail.com"><i class="material-icons contact-icons">email</i></a>
+									<a href="tel:+91 1234567890"><i class="material-icons contact-icons">phone</i></a>
 								</div>
 							</div>
 						</div>
@@ -924,13 +713,13 @@
 					<!-- Team Member 5 -->
 					<div class="col-xl-4 col-md-6 mb-4">
 						<div class="card h-100 border-0 shadow">
-							<img src="img/event-heads/sidhant.png" class="card-img-top" alt="...">
+							<img src="img/event-heads/person.jpg" class="card-img-top" alt="...">
 							<div class="card-body text-center">
-								<h5 class="card-title mb-0">Sidhant S Sarkar</h5>
-								<div class="card-text text-black-50">sidhant18102@iiitd.ac.in</div>
-								<div class="card-text text-black-50">+91 98105 56335</div>
-								<div class="card-text text-black-50"> <a href="mailto: sidhant18102@iiitd.ac.in"><i class="material-icons contact-icons">email</i></a>
-									<a href="tel:+98105 56335"><i class="material-icons contact-icons">phone</i></a>
+								<h5 class="card-title mb-0">XYZ</h5>
+								<div class="card-text text-black-50">xyz@gmail.com</div>
+								<div class="card-text text-black-50">+91 1234567890</div>
+								<div class="card-text text-black-50"> <a href="mailto: xyz@gmail.com"><i class="material-icons contact-icons">email</i></a>
+									<a href="tel:+91 1234567890"><i class="material-icons contact-icons">phone</i></a>
 								</div>
 							</div>
 						</div>
@@ -938,13 +727,13 @@
 					<!-- Team Member 6 -->
 					<div class="col-xl-4 col-md-6 mb-4">
 						<div class="card h-100 border-0 shadow">
-							<img src="img/event-heads/ujjwal.png" class="card-img-top" alt="...">
+							<img src="img/event-heads/person.jpg" class="card-img-top" alt="...">
 							<div class="card-body text-center">
-								<h5 class="card-title mb-0">Ujjwal Singh</h5>
-								<div class="card-text text-black-50">ujjwal18113@iiitd.ac.in</div>
-								<div class="card-text text-black-50">+91 98115 80659</div>
-								<div class="card-text text-black-50"> <a href="mailto: ujjwal18113@iiitd.ac.in"><i class="material-icons contact-icons">email</i></a>
-									<a href="tel:+98115 80659"><i class="material-icons contact-icons">phone</i></a>
+								<h5 class="card-title mb-0">XYZ</h5>
+								<div class="card-text text-black-50">xyz@gmail.com</div>
+								<div class="card-text text-black-50">+91 1234567890</div>
+								<div class="card-text text-black-50"> <a href="mailto: xyz@gmail.com"><i class="material-icons contact-icons">email</i></a>
+									<a href="tel:+91 1234567890"><i class="material-icons contact-icons">phone</i></a>
 								</div>
 							</div>
 						</div>
@@ -953,9 +742,9 @@
 			</div>
 		</section>
 	</main>
-	<!--==========================
-    Footer
-  ============================-->
+
+					<!--==========================  Footer ============================-->
+
 	<footer id="footer">
 		<div class="footer-top">
 			<div class="container">
@@ -964,8 +753,8 @@
 						<img src="img/logo.png" alt="TheEvenet">
 						<p style="padding-top: 10px;">UHACK 2.0 is a software hackathon event where developers, students, hobbyists participate to 
 							engineer an innovative application revolving around the themes provided a day before the event. The flagship event of 
-							Technovators'25,UGI is an overnight hackathon fuelled by creativity, passion, grit and coffee with prizes for winners 
-							and Best X ( X=Design, Best Pitch etc. TBD).</p>
+							Technovators'25,UCER is an overnight hackathon fuelled by creativity, passion, grit and coffee with prizes for winners 
+							and best X <br>(X=Design, Best Pitch etc. TBD).</p>
 					</div>
 					<div class="col-lg-4 col-md-6 footer-links">
 						<!-- <h4>Useful Links</h4>
@@ -981,12 +770,11 @@
 						<h4>Address</h4>
 						<p>United College of Engineering and Research, Prayagraj
 							<br>UPSIDC Industrial Area, Naini
-							<br>Prayagraj,U.P (211010)
+							<br>Prayagraj, U.P - 211010
 							<br>
-							<!-- <strong>Email:</strong> hackiiitd19@gmail.com<br> -->
 						</p>
-						<div class="social-links"> <a href="https://www.facebook.com/events/350217859008741/" class="facebook"><i class="fa fa-facebook"></i></a>
-							<a href="https://www.instagram.com/esya_iiitd/" class="instagram"><i class="fa fa-instagram"></i></a>
+						<div class="social-links"> <a href="https://www.linkedin.com/company/united-college-of-engineering-and-research-allahabad/" class="facebook"><i class="fa fa-linkedin"></i></a>
+							<a href="https://www.instagram.com/xyz/" class="instagram"><i class="fa fa-instagram"></i></a>
 						</div>
 					</div>
 				</div>
@@ -998,6 +786,10 @@
 		</div>
 	</footer>
 	<!-- #footer --> <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
+
+
+
+
 	<!-- JavaScript Libraries -->
 	<script src="lib/jquery/jquery.min.js"></script>
 	<script src="lib/jquery/jquery-migrate.min.js"></script>
