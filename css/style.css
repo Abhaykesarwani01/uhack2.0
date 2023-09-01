@@ -26,7 +26,6 @@ p {
 
 h1,
 h2,
-h3,
 h4,
 h5,
 h6 {
@@ -126,6 +125,15 @@ h6 {
   font-weight: 500;
   color: #9195a2;
 }
+#speakers p{
+  /* text-align: center; */
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 800;
+  /* color: #9195a2; */
+}
+
 
 .section-with-bg {
   background-color: #f6f7fd;
@@ -1010,7 +1018,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #faq #faq-list i {
   font-size: 24px;
   position: absolute;
-  right: 0;
+  right: -13px;
   top: 16px;
 }
 
@@ -1565,7 +1573,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-family: 'Monoton', cursive;
   font-family: 'Orbitron', sans-serif;
 }
-.wrapper {
+#intro .wrapper {
   /* max-width: 800px; */
   /* box-sizing: border-box; */
   display: flex;
@@ -1716,22 +1724,18 @@ strong{
 
 .three_reaching{
   display: block;
-  height: 65px;
+  height: 70px;
 }
 .four_reaching{
   display: block;
-  height: 65px;
+  height: 75px;
 }
 .five_reaching{
   display: block;
-  height: 65px;
+  height: 75px;
 }
 
 @media all and (max-width: 768px) {
-  .tab-content{
-    position: relative;
-    left: 22px;
-  }
 
   #progress_box{
     position: absolute;
@@ -1739,31 +1743,136 @@ strong{
     height: 76vh;
     width: 40px;
     left: -30px;
+    display: none;
   }
   
   .line{
     margin-left: 10px;
     width: 8px;
+    display: none;
   }
   .circle{
     height: 30px;
+    display: none;
   }
   
-  .one{
-    
-  }
-  .two_reaching{
-    height: 180px;
-  }
-  
-  .three_reaching{
-    height: 130px;
-  }
-  .four_reaching{
-    height: 100px;
-  }
-  .five_reaching{
-    height: 120px;
+
+  .material-icons.md-54 { font-size: 40px; }
+
+  #schedule .schedule-item time {
+    /* padding-bottom: 5px;
+    display: inline-block; */
+    margin-left: 72px;
   }
 
+
 }
+
+
+/* ============================ problem statement ================================= */
+
+
+:root {
+	--color-primary: #1a1e28;
+	--color-secondary: #e4f0fc;
+	--color-tertiary: #5de5c7;
+  --color-quaternary: #d0679d;
+	--color-white: #ffffff;
+	
+}
+
+
+.container button {
+  border: 0;
+  padding: 12px 24px;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  font-weight: 700;
+  cursor: pointer;
+  margin: 10px; 
+  background-color: #f6f7fd;
+}
+
+
+.button--primary{
+  font-size: 24px;
+}
+
+
+a {
+  color: var(--color-quaternary);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+
+.grid {
+  display: grid;
+}
+
+.container .wrapper {
+  width: 900px;
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  flex-direction: column;
+  background-color: #f6f7fd;
+  box-shadow: none;
+}
+
+.dialog {
+  border-radius: 10px; 
+  background-color: #f6f7fd;
+}
+
+h3{
+  font-size: 24px;
+}
+
+
+.dialog__inner {
+  min-width: 500px;
+  min-height: 200px;
+  max-width: 800px;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #f6f7fd;
+  /* overflow: auto; */
+}
+.dialog__inner form {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+/* Change the Backdrop */
+.dialog--with-backdrop::backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    backdrop-filter: blur(3px);
+}
+
+/* Apply the animation */
+.dialog--with-animation {
+  animation-name: animate-top;
+  animation-duration: 0.4s;
+}
+
+@keyframes animate-top {
+  from {
+        top:-100px; 
+        opacity:0
+    } 
+    to {
+        top:0; 
+        opacity:1
+    }
+}
+
