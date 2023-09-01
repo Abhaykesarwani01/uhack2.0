@@ -792,6 +792,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 15px;
   margin-bottom: 10px;
 }
+#prblm_intro {
+  font-family: 'Overpass Mono', monospace;
+  font-weight: 400;
+}
 
 /*--------------------------------------------------------------# Schedule Section--------------------------------------------------------------*/
 
@@ -1781,8 +1785,25 @@ strong{
 	
 }
 
+.button--primary{
 
-.container button {
+  /* font-family: 'Overpass Mono', monospace; */
+  font-size: 16px;
+  list-style-type: none;
+  border: solid #22bbf8;
+  text-transform: uppercase;
+
+  background-color: #22bbf8;
+  color: #fff;
+  padding: 5px 18px;
+  font-weight: 600;
+
+  /* background: #19c7fb; */
+  border-radius: 4px;
+
+}
+
+.prblm_btn {
   border: 0;
   padding: 12px 24px;
   font-size: 1.1rem;
@@ -1793,12 +1814,6 @@ strong{
   background-color: #f6f7fd;
 }
 
-
-.button--primary{
-  font-size: 24px;
-  background-color:#1eb7e1;
-  color: #000;
-}
 
 
 a {
@@ -1827,10 +1842,13 @@ a {
 .dialog {
   border-radius: 10px; 
   background-color: #f6f7fd;
+  font-family: 'Overpass Mono', monospace;
+  font-weight: 400;
+  
 }
 
 h3{
-  font-size: 24px;
+  font-size: 30px;
 }
 
 
