@@ -1647,7 +1647,7 @@ li span {
   font-size: 4.5rem;
   color: white;
 }
-strong{
+#countdown strong{
   color: white;
 }
 #countdown ul{
@@ -1669,7 +1669,7 @@ strong{
   li span {
     font-size: 20px;
   } 
-  .wrapper strong{
+  #countdown strong{
     font-size: 13px;
   }
 }
@@ -1768,6 +1768,10 @@ strong{
     display: inline-block; */
     margin-left: 72px;
   }
+  #prblm_intro strong{
+    font-size: 20px;
+    text-decoration: underline;
+  }
 
 
 }
@@ -1825,6 +1829,7 @@ a {
 
 .grid {
   display: grid;
+  text-align: left;
 }
 
 .container .wrapper {
@@ -1850,6 +1855,12 @@ a {
 h3{
   font-size: 30px;
 }
+#prblm_intro strong{
+  color: #000;
+  text-decoration: underline;
+  font-size: 24px;
+}
+
 
 
 .dialog__inner {
