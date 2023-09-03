@@ -1770,7 +1770,9 @@ li span {
   #schedule .schedule-item time {
     /* padding-bottom: 5px;
     display: inline-block; */
-    margin-left: 72px;
+	margin-left: 60px;
+    margin-bottom: 5px;
+    font-weight: 600;
   }
   #prblm_intro strong{
     font-size: 20px;
