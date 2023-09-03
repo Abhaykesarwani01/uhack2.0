@@ -621,6 +621,42 @@ body.mobile-nav-active #mobile-nav-toggle {
   animation-delay: 0.8s;
   border: 2px solid #22BBF8;
 }
+.register-btn{
+  font-family: 'Overpass Mono', monospace;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 32px;
+  border-radius: 4px;
+  transition: 0.5s;
+  line-height: 1;
+  color: #fff;
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+  border: 2px solid #22BBF8;
+  background-color: #19c7fb;
+}
+.register-btn:hover{
+  background: #22BBF8;
+  color: #fff;
+}
+#register{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#intro .about-btn:hover {
+  background: #22BBF8;
+  color: #fff;
+}
+.wow p{
+  font-weight: 600;
+  font-size: 1.1rem;
+}
 
 #intro .about-btn:hover {
   background: #22BBF8;
