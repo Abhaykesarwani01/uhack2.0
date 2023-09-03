@@ -1861,6 +1861,7 @@ li span {
 }
 .prblm_color{
   color: #60bf6b;
+  font-weight: 600;
 }
 .prblm_head{
   font-size: 12px;
