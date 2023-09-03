@@ -14,7 +14,8 @@ a {
 a:hover,
 a:active,
 a:focus {
-  color: #1dfb79;
+  color: #177fd9;
+
   outline: none;
   text-decoration: none;
 }
@@ -1534,7 +1535,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 
   #faq #faq-list a {
-    font-size: 18px;
+    font-size: 20px;
     color: #177fd9;
   }
 
@@ -1638,10 +1639,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 li {
   display: inline-block;
-  font-size: 1.5em;
+  font-size: 1rem;
   list-style-type: none;
   padding: 1em;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 li span {
@@ -1664,7 +1665,7 @@ li span {
   }
 
   li {
-    font-size: 25px;
+    font-size: 16px;
     padding: 10px;
   }
   
