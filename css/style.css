@@ -1850,7 +1850,7 @@ li span {
 }
 
 .prblm_btn {
-  border: 0;
+  border: 2px solid;
   padding: 12px 24px;
   font-size: 1.1rem;
   border-radius: 5px;
@@ -1858,6 +1858,12 @@ li span {
   cursor: pointer;
   margin: 10px; 
   background-color: #f6f7fd;
+}
+.prblm_color{
+  color: #60bf6b;
+}
+.prblm_head{
+  font-size: 12px;
 }
 
 
