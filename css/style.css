@@ -1031,6 +1031,80 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: all 0.4s ease-in-out;
 }
 
+/*--------------------------------------------------------------# prize Section--------------------------------------------------------------*/
+
+#prize-money {
+  background-color: #f5f5f5;
+  padding: 40px 0;
+}
+
+.prize_container {
+  text-align: center;
+  font-family: 'Overpass Mono', monospace;
+  
+}
+
+h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.prizes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.prize_num{
+  font-family: 'GFS Neohellenic', sans-serif;
+  font-family: 'Monoton', cursive;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 20px;
+}
+
+.prize {
+  /* Use a blue gradient similar to the French flag */
+  background: linear-gradient(45deg, #0053a0, #007ec6); /* Gradient from dark blue to light blue */
+  color: #fff; /* White text on the colorful background */
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s; /* Add a subtle hover effect */
+  flex: 1; /* Equal width for all boxes, adjust as needed */
+  max-width: 300px; /* Limit the maximum width of the boxes */
+}
+
+.prize:hover {
+  transform: scale(1.05); /* Increase size on hover */
+}
+
+h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  margin:30px 0px 30px;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .prize {
+      flex-basis: calc(50% - 20px); /* Two columns on smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .prize {
+      flex-basis: calc(100% - 20px); /* Single column on smaller screens */
+  }
+}
+
+
+
 /*--------------------------------------------------------------# F.A.Q Section--------------------------------------------------------------*/
 
 #faq {
