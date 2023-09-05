@@ -2,6 +2,7 @@ const openProblem1 = document.querySelector("#openProblem1");
 const openProblem2 = document.querySelector("#openProblem2");
 const openProblem3 = document.querySelector("#openProblem3");
 const openProblem4 = document.querySelector("#openProblem4");
+const openProblem5 = document.querySelector("#openProblem5");
 
 
 // const basicDialog = document.querySelector("#basicDialog");
@@ -26,6 +27,11 @@ openProblem3.addEventListener('click', () => {
 openProblem4.addEventListener('click', () => {
     Problem4.showModal();
 });
+
+openProblem5.addEventListener('click', () => {
+    Problem5.showModal();
+});
+
 
 
 
