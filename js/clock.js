@@ -13,16 +13,16 @@ dd = String(today.getDate()).padStart(2, "0"),
 mm = String(today.getMonth() + 1).padStart(2, "0"),
 yyyy = today.getFullYear(),
 nextYear = yyyy + 1,
-dayMonth = "09/24/",
-birthday = dayMonth + yyyy;
+dayMonth = "09/25/",
+lastday = dayMonth + yyyy;
 
 today = mm + "/" + dd + "/" + yyyy;
-if (today > birthday) {
-birthday = dayMonth + nextYear;
+if (today > lastday) {
+lastday = dayMonth + nextYear;
 }
 //end
 
-const countDown = new Date(birthday).getTime(),
+const countDown = new Date(lastday).getTime(),
 x = setInterval(function() {    
 
   const now = new Date().getTime(),
