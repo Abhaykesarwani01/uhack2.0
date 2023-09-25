@@ -312,7 +312,7 @@ h6 {
 }
 
 .nav-menu li.buy-tickets a:hover {
-  background: #19c7fb;
+  background: #f32020;
 }
 
 .nav-menu li.buy-tickets:hover a:before,
@@ -659,7 +659,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro .about-btn:hover {
-  background: #22BBF8;
+  background: #f32020;
   color: #fff;
 }
 
