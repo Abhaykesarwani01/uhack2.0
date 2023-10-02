@@ -619,7 +619,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  border: 2px solid #f32020;
+  /* background: #2176a0; */
+  background: #162c3f;
+    border: 2px solid #0ebaff;
+    box-shadow: 15px 1px 150px rgb(24 24 25), 1px 1px 36px rgb(44 96 145 / 73%);
 }
 .register-btn{
   font-family: 'Overpass Mono', monospace;
@@ -650,7 +653,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro .about-btn:hover {
-  background: #f32020;
+  background: #1f5478;
   color: #fff;
 }
 .wow p{
@@ -662,7 +665,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro .about-btn:hover {
-  background: #f32020;
+  background: #1f5478;
   color: #fff;
 }
 
