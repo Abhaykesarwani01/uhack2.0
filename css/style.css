@@ -128,7 +128,7 @@ h6 {
 }
 #speakers p{
   /* text-align: center; */
-  padding: 0;
+  padding: 20px;
   margin: 0;
   font-size: 18px;
   font-weight: 800;
@@ -657,6 +657,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-weight: 600;
   font-size: 1.1rem;
 }
+.beautify{
+  padding:20px;
+}
 
 #intro .about-btn:hover {
   background: #f32020;
@@ -1004,6 +1007,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 30px;
 }
 
+
 #supporters .supporter-logo {
   padding: 30px;
   display: -webkit-box;
@@ -1019,7 +1023,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-bottom: 1px solid #e0e5fa;
   overflow: hidden;
   background: rgb(255, 255, 255);
-/*   background: rgba(255, 255, 255, 0.5); */
+  /* background: rgba(255, 255, 255, 0.5); */
   height: 160px;
 }
 
